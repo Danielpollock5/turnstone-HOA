@@ -1,0 +1,16 @@
+body{
+  background-image: url('../images/background.jpg');
+}
+a{
+  font-size: 30px;
+  color: floralwhite;
+}
+a:hover{
+ color: yellow;
+}
+i{
+    margin: 25px 0;
+}
+footer{
+  color: blue;
+}

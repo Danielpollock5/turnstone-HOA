@@ -1,0 +1,43 @@
+body{
+  background-image: url("../images/background.jpg");
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+}
+h1{
+  font-size: 66px;
+}
+input{
+  height: 40px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  font-size: 25px;
+}
+input:focus{
+  background-color: beige;
+}
+p{
+  color: beige;
+  display: inline;
+  font-size: 30px;
+}
+.logIn{
+  color: black;
+}
+button{
+  margin: 15px;
+  background-color: black;
+  color: floralwhite;
+}
+button:hover{
+  color: yellow !important;
+}
+hr{
+  width: 25%;
+  border: dotted 1px beige;
+  margin-top: 25px;
+}
+#headTwo{
+  color: beige;
+
+}
