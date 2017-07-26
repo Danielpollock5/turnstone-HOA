@@ -1,16 +1,56 @@
 body{
   background-image: url('../images/background.jpg');
 }
-a{
-  font-size: 30px;
-  color: floralwhite;
+body > div.brand{
+	display: inherit;
+    margin: 0;
+    padding: 30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 700 !important;
+    line-height: normal;
+    color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+	border: none;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+#successMain{
+	margin: -12px;
+	color: black;
+	opacity: 0.4;
+	font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #777;
+}
+
 a:hover{
- color: yellow;
+ text-decoration: line-through;
 }
 i{
     margin: 25px 0;
 }
 footer{
   color: blue;
+}
+
+body > div.container > div > div > section{
+        margin-left: -15px !important;
 }

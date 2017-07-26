@@ -15,7 +15,7 @@ if (uName == true || uPass == true) {
   }
 else {
   alert('Username or Password incorrect')
-}
+  }
 }
 
 function register(){
@@ -26,7 +26,8 @@ function register(){
   console.log(emailInput)
 
   if (newUser == "") {
-
+    alert('Success!')
+    window.location = "forms.html"
   } else {
     alert('please enter a user name')
     return
